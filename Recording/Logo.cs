@@ -1,0 +1,52 @@
+﻿using System;
+
+namespace Recording
+{
+    internal class Logo
+    {
+        public void Display()
+        {
+            Console.Clear();
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            Console.WriteLine("==============================================================");
+            Console.WriteLine("             CYBER SECURITY AWARENESS CHATBOT");
+            Console.WriteLine("==============================================================");
+
+            Console.WriteLine();
+
+            Console.WriteLine(
+            @"  ____   ____  _____  ______ 
+ |  _ \ / __ \|  __ \|  ____|
+ | |_) | |  | | |__) | |__
+ |  _ <| |  | |  ___/|  __|
+ | |_) | |__| | |    | |____
+ |____/ \____/|_|    |______|");
+
+            Console.ResetColor();
+
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Welcome to the Cyber Security Awareness Chatbot!");
+            Console.ResetColor();
+
+            Console.WriteLine("Learn how to stay safe online.");
+            Console.WriteLine();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("You can ask me about:");
+            Console.ResetColor();
+
+            Console.WriteLine("- Password Safety");
+            Console.WriteLine("- Phishing");
+            Console.WriteLine("- Safe Browsing");
+            Console.WriteLine("- My Purpose");
+            Console.WriteLine("- How Are You");
+
+            Console.WriteLine();
+            Console.WriteLine("==============================================================");
+            Console.WriteLine();
+        }
+    }
+}
